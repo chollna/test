@@ -32,3 +32,9 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/clock-in', [AttendanceController::class, 'clockIn'])->name('clock.in');
     Route::post('/clock-out', [AttendanceController::class, 'clockOut'])->name('clock.out');
 });
+
+
+// Route::middleware('auth')->group(function () {
+//     Route::post('/clock-in', [AttendanceController::class, 'clockIn']);
+//     Route::post('/clock-out', [AttendanceController::class, 'clockOut']);
+// });
