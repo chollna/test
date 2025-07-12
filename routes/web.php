@@ -38,3 +38,13 @@ Route::middleware(['auth'])->group(function () {
 //     Route::post('/clock-in', [AttendanceController::class, 'clockIn']);
 //     Route::post('/clock-out', [AttendanceController::class, 'clockOut']);
 // });
+
+// Route::middleware('auth')->group(function () {
+//     Route::post('/clock-in', [AttendanceController::class, 'clockIn']);
+//     Route::post('/clock-out', [AttendanceController::class, 'clockOut']);
+// });
+
+// Route::middleware('auth')->group(function () {
+//     Route::post('/clock-in', [AttendanceController::class, 'clockIn']);
+//     Route::post('/clock-out', [AttendanceController::class, 'clockOut']);
+// });
